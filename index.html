@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border-collapse:collapse ;
+            width: 800px;
+        }
+        table td, table th{
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        table caption{
+            caption-side: top;
+            text-align: center;
+            font-size: 14px;
+        }
+        tfoot td{ 
+            background: #ddd;
+            font-style: italic;
+        }
+        .tabel{
+        max-width: 100%;
+        overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Icaro é lindo</p>
+    <div class="tabel">
+    <table class="">
+        <thead>
+            <caption>Uma Descrição para a tabela</caption>
+            <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Corpo 1</td>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td>TOTAL:</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"></td>
+                <td>$20</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
