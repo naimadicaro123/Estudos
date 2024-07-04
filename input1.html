@@ -4,8 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input 1</title>
+    <style>
+        label{
+            cursor: pointer;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    
+    <form action="" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label for="nome">nome:
+            <input type="text" id="nome" name="nomes" placeholder="Icaro">
+        </label>
+        </p>
+        <p>
+            <label for="dev">Sou um dev:
+            <input type="checkbox" id="dev" name="dev" placeholder="Icaro" value="sim">
+        </label>
+    </p>
+    <p>
+        <label for="dev2">Sou um dev:
+        <input type="checkbox" id="dev2" name="dev2" placeholder="Icaro" value="sim">
+    </label>
+    <p>  
+        <label>
+            Base Anterior
+            <input id="ant" name="base" type="radio" value="S" />
+          </label>
+        </div>
+        <div>
+          <label>
+            Base na Grade
+            <input id="grade" name="base" type="radio" value="S" />
+          </label>  
+        </div>
+        <div>
+          <label>
+            Base em Veículos Novos
+            <input id="novo" name="base" type="radio" value="S" />
+          </label>
+        </div>
+</p>
+</p>
+        <p>
+            <button type="reset">Resetar</button>
+            <button type="submit">Enviar</button>
+        </p>
+        <p>
+            <label for="datas">Data:</label>
+            <input type="date" id="datas" name="data" >
+        </p>
+        <p>
+            <label for="dtime">Data:</label>
+            <input type="datetime-local" id="dtime" name="data" >
+        </p>
+        <p>
+            <label for="tempo">Data:</label>
+            <input type="time" id="tempo" name="data" >
+        </p>
+        <p>
+            <label for="cor">Data:</label>
+            <input type="color" id="cor" name="cor" value="#FF0000">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="data" placeholder=".....@gmail.com">
+        </p>
+        <p>
+            <label for="file">Sua Foto:</label>
+            <input type="file" id="file" name="data" accept=".png,image/*">
+        </p>
+        <p>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="data" placeholder="Digite um Número" min="10" max="300">
+        </p>
+        <p>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="data" >
+        </p>
+        <p>
+            <label for="range">Volume:</label>
+            <input type="range" id="range" name="data" step="1" list="tickmarks">
+        </p>
+        <p>
+            <label for="search">Sua url:</label>
+            <input type="search" id="search" placeholder="pesquise">
+        </p>
+        <label for="select"></label>
+        <select name="select" id="select">
+            <option value="1" label="1"></option>
+            <option value="2" label="2"></option>
+            <option value="3" label="3"></option>
+            <option value="4" label="4"></option>
+        </select>
+        <p>
+            <label for="textarea">Textarea: <textarea name="" id="" rows="8" cols="8"></textarea></label>
+        </p>
+    </form>
 </body>
 </html>

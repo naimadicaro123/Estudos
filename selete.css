@@ -1,0 +1,18 @@
+*/*SEletor de tudo*/{
+    margin: 0px;
+    padding: 0px;
+}
+.pai h1~p{ /*eletor os que vieram depois dele, todos os elementos desta tag*/
+    color: red;
+}
+.pai p+h1{/*Seletor os que vieram depois dele, somente um elemento*/
+    color: yellow;
+}
+[meu-atributo]{
+    color: green;
+}
+[checked]{
+    color: red;
+    width: 50px;
+    height: 50px;
+}
