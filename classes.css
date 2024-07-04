@@ -29,6 +29,25 @@ input:checked{
     height: 30px;
 
 }
-input:checked + p{
+input:not(:checked) + p{
     background: red;
+}
+.pai .lista li:last-child{
+    background-color: red;
+}
+p:not(.meio){
+ background-color: blue;
+ transition: 1 s;
+}
+.varios li:nth-child(even){
+    background-color: red;
+}
+.varios li:nth-child(odd){
+    background-color: green;
+}
+.varios li:nth-child(3n){
+    background-color: crimson;
+}
+.varios li:nth-child(3n+5){
+    background-color: blueviolet;
 }
