@@ -1,0 +1,22 @@
+ul li:after{
+    content: '-';
+    background-color: red;
+    color: white;
+}
+p{
+    font-size: 60px;
+}
+p::first-letter{
+    font-size: 150px;
+    display: block;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 10px 10px 0;
+}
+p::first-line{
+    background-color: red;
+}
+p::selection{
+ background-color: black;
+ color: white;
+}
