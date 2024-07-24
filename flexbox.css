@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+.flex-container{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 800px;
+    flex-flow: row nowrap;
+}
+.flex-item{
+    width: 100%;
+    background: red;
+    color: white;
+    text-align: center;
+}
+.flex-item:nth-child(3){
+    align-self: center;
+}
+.flex-item:nth-child(4){
+    order: -2;
+}
